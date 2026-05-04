@@ -276,6 +276,36 @@ Set up proper internationalization:
 
 ---
 
+## 🔐 Environment Variables (.env)
+
+When cloning this repo, create a `.env` file in the project root with the following values. A reference template is also available in [`.env.example`](.env.example).
+
+```env
+# Sanity Configuration
+# Project: ffp_website
+
+# Your Sanity Project ID
+VITE_SANITY_PROJECT_ID=3r0h5v4g
+
+# Dataset name
+VITE_SANITY_DATASET=production
+
+# Optional: Auth token for authenticated requests
+# Add your token here if you need write access from the frontend
+# VITE_SANITY_TOKEN=your_token_here
+
+# Sanity Studio Configuration
+SANITY_STUDIO_PROJECT_ID=3r0h5v4g
+SANITY_STUDIO_DATASET=production
+```
+
+**Notes:**
+- The `VITE_SANITY_PROJECT_ID` and `VITE_SANITY_DATASET` are **public** — they ship with the bundled JS to the browser, so they are safe to commit/document.
+- `VITE_SANITY_TOKEN` is **secret** — only set it locally if needed for write access. Never commit it.
+- `.env` is listed in `.gitignore` and will not be pushed to GitHub.
+
+---
+
 ## 📞 Quick Links
 
 **Studio**: https://ffp-dashboard.sanity.studio/
