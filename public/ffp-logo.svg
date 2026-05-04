@@ -1,0 +1,30 @@
+<svg width="600" height="200" viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle with fork and wheat design -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#2D5F3F" stroke-width="6"/>
+
+  <!-- Wheat grain on left -->
+  <g transform="translate(55, 70)">
+    <line x1="0" y1="0" x2="0" y2="50" stroke="#2D5F3F" stroke-width="3"/>
+    <ellipse cx="0" cy="5" rx="4" ry="6" fill="#5A8F6F"/>
+    <ellipse cx="0" cy="15" rx="4" ry="6" fill="#5A8F6F"/>
+    <ellipse cx="0" cy="25" rx="4" ry="6" fill="#5A8F6F"/>
+    <ellipse cx="0" cy="35" rx="4" ry="6" fill="#5A8F6F"/>
+    <ellipse cx="0" cy="45" rx="4" ry="6" fill="#5A8F6F"/>
+  </g>
+
+  <!-- Plate in center -->
+  <ellipse cx="100" cy="100" rx="35" ry="30" fill="#5A8F6F" opacity="0.7"/>
+
+  <!-- Fork on right -->
+  <g transform="translate(130, 70)">
+    <line x1="0" y1="0" x2="0" y2="50" stroke="#2D5F3F" stroke-width="3"/>
+    <line x1="-6" y1="0" x2="-6" y2="15" stroke="#2D5F3F" stroke-width="2.5"/>
+    <line x1="-3" y1="0" x2="-3" y2="18" stroke="#2D5F3F" stroke-width="2.5"/>
+    <line x1="3" y1="0" x2="3" y2="18" stroke="#2D5F3F" stroke-width="2.5"/>
+    <line x1="6" y1="0" x2="6" y2="15" stroke="#2D5F3F" stroke-width="2.5"/>
+  </g>
+
+  <!-- Text: FoodFirst Program -->
+  <text x="220" y="85" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#2D5F3F">FoodFirst</text>
+  <text x="220" y="130" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#5A8F6F">Program</text>
+</svg>
